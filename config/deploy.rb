@@ -2,7 +2,7 @@ require 'bundler/capistrano'
 
 set :application, "filmbastardi.cz"
 set :deploy_via, :remote_cache
-set :user, 'filmbastardi_cz'
+set :user, 'bastardi3_cz'
 
 # Settings
 
@@ -13,11 +13,11 @@ set :use_sudo, false
 
 
 set :scm, :git
-set :repository, "git@github.com:mmagnusek/bastardi-sinatra.git"
+set :repository, "git@github.com:mmagnusek/bastardi3-sinatra.git"
 set :branch, 'master'
 set :git_enable_submodules, 1
 set :keep_releases, 3
-set :deploy_to, "/var/www/filmbastardi_cz"
+set :deploy_to, "/var/www/bastardi3_cz"
 
 server "zoidberg.blueberry.cz", :web, :app, :db, :primary => true
 
