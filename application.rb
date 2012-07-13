@@ -4,7 +4,7 @@ require 'rubygems'
 require 'sinatra'
 require 'sinatra/content_for'
 require 'sinatra/base'
-require 'active_record'
+# require 'active_record'
 require 'rack-flash'
 
 enable :sessions
