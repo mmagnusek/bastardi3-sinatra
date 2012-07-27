@@ -144,23 +144,20 @@ a {
 }
       
 .tvurci {
+  margin-top: 50px;
   width: 100%;
-  clear: both;
+}
+.tvurci tr{
+  height: 50px;
+}
+.tvurci th{
+  width: 30%;
 }
 h1,h2,
 table thead td{
   color: red;
   text-shadow: black 1px 2px 2px;
   font-size: 24px;
-}
-.tvurci .image_background{
-  background-image: url('../tvurci/background.png');
-  width: 170px;
-  height: 115px;
-  float: left;
-}
-.tvurci img{
-  margin: 5px 0 0 5px;
 }
 #music{
   position: absolute;
@@ -220,9 +217,12 @@ table thead td{
   height: 410px;
   overflow: hidden;
 }
+#actorList ul{
+  margin-top: 20px;
+}
 #actorList li{
-  font-size: 14px;
-  height: 18px;
+  font-size: 16px;
+  height: 24px;
 }
 #actorList li a{
   color: white;
