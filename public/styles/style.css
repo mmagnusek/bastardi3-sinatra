@@ -142,7 +142,7 @@ a {
   width: 0px;
   height: 0px;
 }
-      
+
 .tvurci {
   margin-top: 50px;
   width: 100%;
@@ -237,18 +237,12 @@ table thead td{
   width: 730px;
   height: 100%;
 }
-a.partner{
- margin: 0px 2px; 
+.partners{
+  width: 49%;
+  float: left;
 }
-a.partner #diakonie{
-  margin: -10px 0px -15px 0px;
-}
-a.partner #mary_kay{
-  margin-top: 5px;
-}
-h2.partner_section{
-  clear: both;
-  position: absolute;
+.partners a{
+  color: white;
 }
 #spot-container{
   text-align: center;
