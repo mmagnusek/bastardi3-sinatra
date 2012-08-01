@@ -14,7 +14,8 @@
     %script{:src => "javascripts/application.js", :type => "text/javascript"}
   %body
     #video
-      %a#player{:href => "trailer2.mp4"}
+      / %a#player{:href => "trailer2.mp4"}
+      #player= erb :fb_video
       %a#skip_intro{:href => "web.html"} Přeskočit
       %br
       %br
