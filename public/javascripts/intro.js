@@ -1,26 +1,4 @@
 $(document).ready(function() {
-  var height = document.body.scrollHeight;
-  var top_margin = (height/2) - 180;
-  flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.3.swf",{
-    plugins: {
-      controls: {
-        backgroundGradient: 'none',
-        backgroundColor: 'rgba(0, 0, 0, 0)',
-        fullscreenOnly: false,
-        time: false,
-        mute: false
-      }
-    },
-    clip: {
-      onFinish: function(){
-        self.location.href = 'web.html';
-      }
-    },
-    onLoad: function(){
-      this.setVolume(50);
-    }
-  });
-  $('#player').css('margin-top',top_margin + 'px');
   $('#skip_intro').attr('href','web.html');
 });
 var _gaq = _gaq || [];
