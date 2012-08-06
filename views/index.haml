@@ -1,8 +1,7 @@
-- title
 !!! Strict
 %html{:xmlns =>"http://www.w3.org/1999/xhtml", :"xml:lang" => "cs", :lang => "cs"}
   %head
-    %title= yield_content :title
+    %title= "Bastardi 3"
     %meta{:"http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8"}
     %meta{:name => "description", :content => "Přijďte do kina na nový český film, který zobrazuje reálnou situaci v českém praktickém školství." }
     %meta{:content => "Martin Magnusek", :name => "author"}
@@ -14,7 +13,7 @@
     %script{:src => "javascripts/application.js", :type => "text/javascript"}
   %body
     #video
-      #player= erb :fb_video
+      #player= erb :video
       %a#skip_intro{:href => "web.html"} Přeskočit
       %br
       %br
