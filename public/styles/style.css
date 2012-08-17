@@ -212,6 +212,10 @@ table thead td{
   height: 108px;
 }
 #image_gallery .photo img{
+  margin-top: 2px;
+  margin-left: 2px;
+}
+#image_gallery.small .photo img{
   margin-top: 1px;
   margin-left: 1px;
 }
