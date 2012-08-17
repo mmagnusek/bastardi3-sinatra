@@ -6,7 +6,6 @@
 %link{:href => "/fancybox/jquery.fancybox-1.3.1.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
 :javascript
   $(document).ready(function() {
-    _typeface_js.renderDocument();
     $("a[rel=fancy]").fancybox({
       'transitionIn'    : 'none',
       'transitionOut'   : 'none',
@@ -15,6 +14,7 @@
         return '<span id="fancybox-title-over">Foto ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
       }
     });
+    _typeface_js.renderDocument();
   });
 
 %h1 Pro kina
