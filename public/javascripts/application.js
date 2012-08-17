@@ -16,8 +16,8 @@ function recordOutboundLink(category, action) {
 }
 
 $(document).ready(function() {
-  
-  setInterval("checkAnchor()", 300);  
+
+  setInterval("checkAnchor()", 300);
 
   $('.slideshow').cycle({
 		fx: 'fade',
@@ -28,15 +28,15 @@ $(document).ready(function() {
     //http://releases.flowplayer.org/swf/
     clip: {
       onBeforeFinish: function() {
-        return false; 
+        return false;
       }
     },
-    
+
   	onLoad: function(){
       this.setVolume(50)
 	  }
   });
-  
+
   $("#o_filmu_link").attr('href',"#o_filmu");
   $("#herci_link").attr('href',"#herci");
   $("#z_nataceni_link").attr('href',"#z_nataceni");
@@ -44,7 +44,8 @@ $(document).ready(function() {
   $("#partneri_link").attr('href',"#partneri");
   $("#aktuality_link").attr('href',"#aktuality");
   $("#eshop_link").attr('href',"#eshop");
-  
+  $("#pro_kina_link").attr('href',"#pro_kina");
+
   $(".flash").fadeOut(3000);
 });
 
@@ -53,9 +54,9 @@ $(window).load(function () {
   var height = document.body.scrollHeight;
   var shiftWidth = 0;
   var shiftHeight = 50;
-  
-  if( width < 1200) shiftWidth = (1200 - width) / 2;  
-  
+
+  if( width < 1200) shiftWidth = (1200 - width) / 2;
+
   window.scroll(shiftWidth,shiftHeight);
 });
 
@@ -110,6 +111,9 @@ function changePageTitle(page_name){
       break;
     case 'facebook':
       document.title = "Bastardi - Přidejte se mezi fanoušky stránky na facebooku";
+      break;
+    case 'pro_kina':
+      document.title = "Bastardi - Pro kina";
       break;
     default :
       document.title = "Bastardi - Nový český film z prostředí praktického školství";

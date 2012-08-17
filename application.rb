@@ -22,7 +22,7 @@ helpers do
       title
     end
   end
-  
+
   def description(description = nil)
     description ||= "Příběh z prostředí praktického školství. Bez povrchností, klišé a přetvářek."
     content_for :description do
@@ -69,6 +69,10 @@ end
 
 get '/z_nataceni.html' do
   haml :z_nataceni, :layout => @layout
+end
+
+get '/pro_kina.html' do
+  haml :pro_kina, :layout => @layout
 end
 
 get '/eshop.html' do

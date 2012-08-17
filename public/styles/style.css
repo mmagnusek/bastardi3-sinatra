@@ -205,9 +205,15 @@ table thead td{
   height: 155px;
   margin-right: 5px;
 }
+#image_gallery.small .photo{
+  background-image: url('../fotosky/background.png');
+  float: left;
+  width: 148px;
+  height: 108px;
+}
 #image_gallery .photo img{
-  margin-top: 2px;
-  margin-left: 2px;
+  margin-top: 1px;
+  margin-left: 1px;
 }
 #actorList{
   background-image: url('../herci/actorList-background.png');
