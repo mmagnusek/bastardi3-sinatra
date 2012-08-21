@@ -16,18 +16,12 @@ before do
 end
 
 helpers do
-  def title(title = nil)
-    title ||= "Bastardi - Nový český film z prostředí praktického školství"
-    content_for :title do
-      title
-    end
+  def title(title_str = nil)
+    @title = title_str || "Bastardi - Nový český film z prostředí praktického školství"
   end
 
-  def description(description = nil)
-    description ||= "Příběh z prostředí praktického školství. Bez povrchností, klišé a přetvářek."
-    content_for :description do
-      description
-    end
+  def description(description_str = nil)
+    @description = description_str || "Příběh z prostředí praktického školství. Bez povrchností, klišé a přetvářek."
   end
 
   def checked?(option, answer)

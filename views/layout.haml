@@ -1,9 +1,9 @@
 !!! Strict
 %html{:xmlns =>"http://www.w3.org/1999/xhtml", :"xml:lang" => "cs", :lang => "cs"}
   %head
-    %title= yield_content :title
+    %title= @title
     %meta{:"http-equiv" => "Content-Type", :content => "text/html; charset=UTF-8"}
-    %meta{:name => "description", :content => (yield_content :description )}
+    %meta{:name => "description", :content => @description }
     %meta{:name => "author", :content => "Martin Magnusek"}
     %link{:href => "/styles/style.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}
 
