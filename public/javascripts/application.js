@@ -15,6 +15,15 @@ function recordOutboundLink(category, action) {
   }catch(err){}
 }
 
+TargetDate = "9/20/2012 8:00 PM";
+BackColor = "none";
+ForeColor = "white";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = true;
+DisplayFormat = "%%D%% dní %%H%% hodin %%M%% minut %%S%% vteřin";
+FinishMessage = "Nyní už můžete navštívit film ve vašin kinech!";
+
 $(document).ready(function() {
 
   setInterval("checkAnchor()", 300);

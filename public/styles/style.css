@@ -42,8 +42,13 @@ a {
 #logo{
   margin-top: 5px;
   margin-left: 150px;
-  width: 380px;
+  width: 420px;
   height: 105px;
+  float: left;
+}
+#count_down{
+  float: left;
+  margin: 40px 0 0 50px;
 }
 .slideshow{
   z-index: -1;
