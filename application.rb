@@ -69,6 +69,11 @@ get '/pro_kina.html' do
   haml :pro_kina, :layout => @layout
 end
 
+get '/promitani.html' do
+  haml :promitani, :layout => @layout
+end
+
+
 get '/eshop.html' do
   haml :eshop, :layout => @layout
 end

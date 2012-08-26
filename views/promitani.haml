@@ -13,20 +13,7 @@
       });
     });
   });
-.projections
-  %h2= "Promítání filmu dnes: #{Date.today}"
-  %ul
-    - @today_projections.each do |projection|
-      %li= projection.location
-    
-.projections
-  %h2= "Promítání filmu zítra: #{Date.today + 1.day}"
-  %ul.projections
-    - @tomorrow_projections.each do |projection|
-      %li= projection.location
-      
-%h2 Vyberte kino
-%select{:id => "cinema_select"}
-  - @cinemas.each do |cinema|
-    %option{:value => cinema }= cinema
-#dates
+
+%h2= "Promítání filmu"
+
+= erb :nasazeni

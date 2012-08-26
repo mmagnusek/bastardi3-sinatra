@@ -49,7 +49,7 @@ $(document).ready(function() {
   $("#o_filmu_link").attr('href',"#o_filmu");
   $("#herci_link").attr('href',"#herci");
   $("#z_nataceni_link").attr('href',"#z_nataceni");
-  $("#tvurci_link").attr('href',"#tvurci");
+  $("#promitani_link").attr('href',"#promitani");
   $("#partneri_link").attr('href',"#partneri");
   $("#aktuality_link").attr('href',"#aktuality");
   $("#eshop_link").attr('href',"#eshop");
@@ -109,8 +109,8 @@ function changePageTitle(page_name){
     case 'z_nataceni':
       document.title = "Bastardi - Fotografie z natáčení";
       break;
-    case 'tvurci':
-      document.title = "Bastardi - Tvůrci českého filmu";
+    case 'promitani':
+      document.title = "Bastardi - Kina kde promítáme";
       break;
     case 'partneri':
       document.title = "Bastardi - Naši partneři";
