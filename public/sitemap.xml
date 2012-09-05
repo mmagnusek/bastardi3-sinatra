@@ -1,50 +1,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.filmbastardi.cz/</loc>
+    <loc>http://www.bastardi3.cz/</loc>
     <changefreq>weekly</changefreq>
-    <lastmod>2010-08-24</lastmod>
+    <lastmod>2012-09-05</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>http://www.filmbastardi.cz/o_filmu.html</loc>
+    <loc>http://www.bastardi3.cz/o_filmu.html</loc>
     <changefreq>weekly</changefreq>
-    <lastmod>2010-08-24</lastmod>
+    <lastmod>2012-09-05</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>http://www.filmbastardi.cz/herci.html</loc>
+    <loc>http://www.bastardi3.cz/herci.html</loc>
     <changefreq>weekly</changefreq>
-    <lastmod>2010-08-24</lastmod>
+    <lastmod>2012-09-05</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>http://www.filmbastardi.cz/z_nataceni.html</loc>
+    <loc>http://www.bastardi3.cz/z_nataceni.html</loc>
     <changefreq>weekly</changefreq>
-    <lastmod>2010-08-24</lastmod>
+    <lastmod>2012-09-05</lastmod>
     <priority>0.50</priority>
   </url>
-  <url> 
-    <loc>http://www.filmbastardi.cz/tvurci.html</loc>
+    <url>
+    <loc>http://www.bastardi3.cz/promitani.html</loc>
     <changefreq>weekly</changefreq>
-    <lastmod>2010-08-24</lastmod>
+    <lastmod>2012-09-05</lastmod>
     <priority>0.50</priority>
   </url>
-  <url> 
-    <loc>http://www.filmbastardi.cz/sponzori.html</loc>
+  <url>
+    <loc>http://www.bastardi3.cz/pro_kina.html</loc>
     <changefreq>weekly</changefreq>
-    <lastmod>2010-11-04</lastmod>
+    <lastmod>2012-09-05</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>http://www.bastardi3.cz/partneri.html</loc>
+    <changefreq>weekly</changefreq>
+    <lastmod>2012-09-05</lastmod>
     <priority>0.30</priority>
-  </url>
-  <url> 
-    <loc>http://www.filmbastardi.cz/spoty.html</loc>
-    <changefreq>weekly</changefreq>
-    <lastmod>2010-11-04</lastmod>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>http://www.filmbastardi.cz/promitani.html</loc>
-    <changefreq>weekly</changefreq>
-    <lastmod>2010-11-04</lastmod>
-    <priority>0.50</priority>
   </url>
 </urlset>

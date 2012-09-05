@@ -1,19 +1,5 @@
 - title "Bastardi - Kina kde promítáme"
 - description ""
-:javascript
-  $(document).ready(function() {
-    _typeface_js.renderDocument();
-    $("#cinema_select").change(function(){
-      var current_cinema = $(this).val();
-      $.ajax({
-        url: '/get_dates?cinema=' + current_cinema,
-        success: function(data) {
-          $("#dates").html(data);
-        }
-      });
-    });
-  });
-
 %h2= "Promítání filmu"
 
 = erb :nasazeni

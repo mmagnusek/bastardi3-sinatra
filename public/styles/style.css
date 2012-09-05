@@ -148,16 +148,6 @@ a {
   height: 0px;
 }
 
-.tvurci {
-  margin-top: 50px;
-  width: 100%;
-}
-.tvurci tr{
-  height: 50px;
-}
-.tvurci th{
-  width: 30%;
-}
 h1,h2,
 table thead td{
   color: red;
@@ -181,13 +171,6 @@ table thead td{
 }
 #trailer a:hover{
   color: red;
-}
-#stef{
-  position: absolute;
-  margin: -27px 0 0 1070px;
-  width: 49px;
-  height: 21px;
-  background-image: url('../images/mini_stef.png');
 }
 #play_button{
   width: 25px;
@@ -258,44 +241,6 @@ table thead td{
 }
 .partners a{
   color: white;
-}
-#spot-container{
-  text-align: center;
-}
-#spot-preview{
-  height: 300px;
-  width: 100%;
-}
-#spoty{
-  position: relative;
-  width: 950px;
-}
-#spoty img{
-  position: absolute;
-  margin-top: 15px;
-  width: 95px;
-}
-#soutez_form{
-  margin: 10px 0px;
-  font-size: 75%;
-}
-#soutez_form #credentials label{
-  width: 130px;
-  float: left;
-}
-#soutez_form #credentials input{
-  width: 190px;
-}
-#soutez_form #answer_dictrict_id{
-  margin-left: 130px;
-}
-#soutez_form input#submit{
-  width: 100px;
-}
-ul.winners{
-  margin: 20px 0px;
-  text-shadow: black 1px 2px 2px;
-  font-weight: bolder;
 }
 .projections{
   width: 49%;

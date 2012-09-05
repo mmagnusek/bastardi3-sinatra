@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('#skip_intro').attr('href','web.html');
 });
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-15759162-1']);
+_gaq.push(['_setAccount', 'UA-24083266-2']);
 _gaq.push(['_trackPageview']);
 
 (function() {
