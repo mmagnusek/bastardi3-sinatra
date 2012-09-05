@@ -4,7 +4,6 @@ require 'rubygems'
 require 'sinatra'
 require 'sinatra/content_for'
 require 'sinatra/base'
-# require 'active_record'
 require 'rack-flash'
 
 enable :sessions
@@ -57,10 +56,6 @@ get '/partneri.html' do
   haml :partneri, :layout => @layout
 end
 
-get '/tvurci.html' do
-  haml :tvurci, :layout => @layout
-end
-
 get '/z_nataceni.html' do
   haml :z_nataceni, :layout => @layout
 end
@@ -72,7 +67,6 @@ end
 get '/promitani.html' do
   haml :promitani, :layout => @layout
 end
-
 
 get '/eshop.html' do
   haml :eshop, :layout => @layout
